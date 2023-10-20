@@ -4,7 +4,7 @@ export default function loadMenu(){
     document.getElementById('content').appendChild(container);
 
     let image = document.createElement('img');
-    image.src = '../src/burger.png';
+    image.src = '../src/burger.PNG';
     image.style.height = '400px';
     document.getElementById('divMenu').appendChild(image);
 
