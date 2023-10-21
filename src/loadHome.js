@@ -1,10 +1,12 @@
+import homeImage from '../src/mcridemug.jpg';
+
 export default function loadHome(){
     let container = document.createElement('div');
     container.setAttribute('id', 'divHome')
     document.getElementById('content').appendChild(container);
 
     let image = document.createElement('img');
-    image.src = '../src/mcridemug.jpg';
+    image.src = homeImage;
     image.style.height = '400px';
     document.getElementById('divHome').appendChild(image);
 
