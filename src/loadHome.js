@@ -4,7 +4,7 @@ export default function loadHome(){
     document.getElementById('content').appendChild(container);
 
     let image = document.createElement('img');
-    image.src = '../src/mcridemug.JPG';
+    image.src = '../src/mcridemug.jpg';
     image.style.height = '400px';
     document.getElementById('divHome').appendChild(image);
 
